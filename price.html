@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://lomzayavki.veridok.ru/price.html">
+<title>Цена — заявки от сдатчиков лома</title>
+<meta name="description" content="Цена в месяц: страница пункта приёма лома в поиске и на картах, заявки сдатчиков с видом лома и адресом, кабинет с историей заявок.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Заявки на лом</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Страница пункта, заявки сдатчиков, кабинет и история — по фиксированной оплате в месяц.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Один пункт приёма</b><span>9 900 ₽ в месяц, сколько бы заявок ни пришло.</span><br><a class="btn" href="pay.html?plan=punkt" data-ev="payment_click click_pay_punkt">Оплатить — 9 900 ₽</a></div>
+      <div class="card"><b>Пункт с вывозом лома</b><span>13 900 ₽ в месяц: заявки на вывоз собраны по районам и дням.</span><br><a class="btn" href="pay.html?plan=s_vyvozom" data-ev="payment_click click_pay_s_vyvozom">Оплатить — 13 900 ₽</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Заявки от сдатчиков лома для вашего пункта. Не заменяет лицензию и обязанности пункта приёма.</p>
+</div></footer>
+
+</body>
+</html>
